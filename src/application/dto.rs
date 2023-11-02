@@ -1,0 +1,10 @@
+mod create_student_req;
+mod create_subject_req;
+mod fetch_subject_req;
+mod update_student_req;
+mod update_subject_req;
+pub use create_student_req::CreateStudentReq;
+pub use create_subject_req::CreateSubjectReq;
+pub use fetch_subject_req::FetchSubjectReq;
+pub use update_student_req::UpdateStudentReq;
+pub use update_subject_req::UpdateSubjectReq;
